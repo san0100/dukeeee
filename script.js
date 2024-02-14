@@ -130,7 +130,7 @@ function createMessageElement(message) {
 
     const nameElement = document.createElement('div');
     nameElement.classList.add('message-name');
-    nameElement.textContent = message.speaker === 'bluedevil' ? 'Blue Devil' : 'Director';
+    nameElement.textContent = message.speaker === 'bluedevil' ? 'Blue Devil' : 'Dean';
 
     const messageTextElement = document.createElement('div');
     messageTextElement.innerHTML = message.text; 
